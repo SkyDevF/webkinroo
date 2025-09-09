@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>กินรู้ - แอปคำนวณแคลอรี่อัจฉริยะ</title>
+    <link rel="icon" type="image/png" href="assets/icons/KIN.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/icons/KIN.png" alt="กินรู้" class="logo-icon">
+                <span>กินรู้</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">หน้าแรก</a>
+                <a href="#features" class="nav-link">คุณสมบัติ</a>
+                <a href="#about" class="nav-link">เกี่ยวกับ</a>
+                <a href="#ai-performance" class="nav-link">ประสิทธิภาพ AI</a>
+                <a href="#survey" class="nav-link">แบบสำรวจ</a>
+                <a href="#download" class="nav-link">ดาวน์โหลด</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="highlight">กินรู้</span>
+                    <br>แอปคำนวณแคลอรี่อัจฉริยะ
+                </h1>
+                <p class="hero-subtitle">
+                    แอปพลิเคชันคำนวณแคลอรี่ภาพถ่ายอาหารเพื่อดูแลสุขภาพ
+                    <br>ใช้ AI วิเคราะห์ภาพอาหาร คำนวณแคลอรี่และสารอาหารอัตโนมัติ
+                    <br>ช่วยให้ผู้ใช้ตัดสินใจเรื่องโภชนาการได้ง่ายขึ้น รองรับการติดตามสุขภาพ เช่น BMI
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        ดาวน์โหลดแอป
+                    </a>
+                    <a href="#survey" class="btn btn-secondary">
+                        <i class="fas fa-clipboard-list"></i>
+                        แบบสำรวจ
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="image-slider">
+                            <img src="assets/images/1.jpg" alt="ภาพอาหาร 1" class="slider-image active">
+                            <img src="assets/images/2.jpg" alt="ภาพอาหาร 2" class="slider-image">
+                            <img src="assets/images/3.jpg" alt="ภาพอาหาร 3" class="slider-image">
+                            <img src="assets/images/4.jpg" alt="ภาพอาหาร 4" class="slider-image">
+                            <img src="assets/images/5.jpg" alt="ภาพอาหาร 5" class="slider-image">
+                            <img src="assets/images/6.jpg" alt="ภาพอาหาร 6" class="slider-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--
+ Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>คุณสมบัติเด่น</h2>
+                <p>เทคโนโลยี AI ที่ช่วยให้การดูแลสุขภาพง่ายขึ้น</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>กำหนดแคลอรี่ต่อวัน</h3>
+                    <p>คำนวณแคลอรี่ที่เหมาะสมตามค่า BMI ของผู้ใช้ เพื่อการดูแลสุขภาพที่เป็นระบบ</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <h3>แสกนภาพอาหาร</h3>
+                    <p>ระบบ AI วิเคราะห์เมนูและคำนวณแคลอรี่ทันที ด้วยความแม่นยำสูงถึง 98%</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>บันทึกมื้ออาหาร</h3>
+                    <p>เก็บข้อมูลสารอาหารต่อวัน ติดตามการบริโภคอย่างละเอียดและครบถ้วน</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>แนะนำเมนูอาหาร</h3>
+                    <p>แนะนำเมนูอาหารที่เหมาะสมตามเป้าหมายสุขภาพของผู้ใช้แต่ละคน</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>เกี่ยวกับ กินรู้</h2>
+                    <p class="about-description">
+                        แอปพลิเคชัน "กินรู้" ได้รับการพัฒนาขึ้นเพื่อช่วยให้ผู้ใช้สามารถดูแลสุขภาพได้อย่างมีประสิทธิภาพ
+                        ด้วยเทคโนโลยี AI ที่ทันสมัย ที่สามารถวิเคราะห์อาหารจากภาพถ่ายและคำนวณแคลอรี่ได้อย่างแม่นยำ
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Train Accuracy</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">73%</div>
+                            <div class="stat-label">Validation Accuracy</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">0.12</div>
+                            <div class="stat-label">Loss Value</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-brain"></i>
+                        <p>AI Technology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Model Performance Section -->
+    <section id="ai-performance" class="ai-performance">
+        <div class="container">
+            <div class="section-header">
+                <h2>ประสิทธิภาพโมเดล AI</h2>
+                <p>ผลการเทรนโมเดล AI ที่ใช้ในการวิเคราะห์อาหาร</p>
+            </div>
+            <div class="performance-grid">
+                <div class="performance-card">
+                    <div class="performance-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Train Accuracy</h3>
+                    <div class="performance-value">98%</div>
+                    <p>ความแม่นยำของโมเดลบน Train Set<br>โมเดลทำนายถูก 98 จาก 100 ตัวอย่าง</p>
+                </div>
+                <div class="performance-card">
+                    <div class="performance-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Validation Accuracy</h3>
+                    <div class="performance-value">73%</div>
+                    <p>ความแม่นยำบนข้อมูลใหม่ที่ไม่ได้ใช้สอน<br>โมเดลทำนายถูก 73 จาก 100 ตัวอย่าง</p>
+                </div>
+                <div class="performance-card">
+                    <div class="performance-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Loss Value</h3>
+                    <div class="performance-value">0.12</div>
+                    <p>ค่า Loss บน Train Set คือค่าความผิดพลาดของโมเดล<br>ยิ่งน้อยยิ่งดี</p>
+                </div>
+            </div>
+            <div class="ai-concept">
+                <h3>แนวคิดของแอป</h3>
+                <div class="concept-grid">
+                    <div class="concept-item">
+                        <i class="fas fa-brain"></i>
+                        <span>ใช้ AI วิเคราะห์ภาพอาหาร</span>
+                    </div>
+                    <div class="concept-item">
+                        <i class="fas fa-calculator"></i>
+                        <span>คำนวณแคลอรี่และสารอาหารอัตโนมัติ</span>
+                    </div>
+                    <div class="concept-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>ช่วยให้ผู้ใช้ตัดสินใจเรื่องโภชนาการได้ง่ายขึ้น</span>
+                    </div>
+                    <div class="concept-item">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>รองรับการติดตามสุขภาพ เช่น BMI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Survey Section -->
+    <section id="survey" class="survey">
+        <div class="container">
+            <div class="survey-content">
+                <h2>แบบสำรวจความพึงพอใจ</h2>
+                <p>ช่วยเราปรับปรุงแอปให้ดีขึ้น โดยการแบ่งปันประสบการณ์การใช้งานของคุณ</p>
+                <div class="survey-features">
+                    <div class="survey-item">
+                        <i class="fas fa-star"></i>
+                        <span>ประเมินความพึงพอใจ</span>
+                    </div>
+                    <div class="survey-item">
+                        <i class="fas fa-comment"></i>
+                        <span>แสดงความคิดเห็น</span>
+                    </div>
+                    <div class="survey-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>เสนอแนะการปรับปรุง</span>
+                    </div>
+                </div>
+                <a href="https://forms.gle/XFc7Nt46bkuQNo5Z8" target="_blank" class="btn btn-survey-main">
+                    <i class="fas fa-clipboard-list"></i>
+                    เริ่มทำแบบสำรวจ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>เริ่มต้นใช้งาน กินรู้ วันนี้</h2>
+                <p>ดาวน์โหลดแอปและเริ่มดูแลสุขภาพของคุณอย่างมีประสิทธิภาพ</p>
+                <div class="download-buttons">
+                    <a href="https://drive.google.com/file/d/1LKvxk4aD-21ngbdl0v2JBGAIAotepC6t/view?usp=drive_link"
+                        target="_blank" class="btn btn-download">
+                        <i class="fas fa-download"></i>
+                        ดาวน์โหลดแอป
+                    </a>
+                </div>
+                <p class="download-note">
+                    <i class="fas fa-info-circle"></i>
+                    ตอนนี้รองรับเฉพาะ Android
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/icons/KIN.png" alt="กินรู้" class="footer-logo-icon">
+                    <span>กินรู้</span>
+                </div>
+                <div class="developer-info">
+                    <h4>จัดทำโดย</h4>
+                    <p class="developer-name">นายธิติวุฒิ ประเสริฐศิลป์</p>
+                    <div class="developer-links">
+                        <a href="https://github.com/SkyDevF" target="_blank" class="developer-link">
+                            <i class="fab fa-github"></i>
+                            SkyDevF
+                        </a>
+                        <a href="mailto:thitiwoot11111@gmail.com" class="developer-link">
+                            <i class="fas fa-envelope"></i>
+                            thitiwoot11111@gmail.com
+                        </a>
+                        <a href="https://www.tiktok.com/@kinroo.official?_t=ZS-8zZw78qXXyE&_r=1" target="_blank"
+                            class="developer-link">
+                            <i class="fab fa-tiktok"></i>
+                            @kinroo.official
+                        </a>
+                        <a href="https://www.facebook.com/slo.sko.3" target="_blank" class="developer-link">
+                            <i class="fab fa-facebook"></i>
+                            Facebook
+                        </a>
+                    </div>
+                </div>
+                <p>&copy; 2025 กินรู้. สงวนลิขสิทธิ์.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
